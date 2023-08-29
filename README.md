@@ -1,11 +1,13 @@
 # python-code-challenge1
 
 Challenge 1: Converting 12-hour Time to 24-hour Time
-Description
-In this challenge, you're tasked with creating a Python function that handles the conversion of 12-hour time representation to the 24-hour format. Given an hour, minute, and period (either "am" or "pm"), your function should return a four-digit string representing the time in the 24-hour format.
- 
- # functionality
- def convert_to_24_hour(hour: int, minute: int, period: str) -> str:
+
+Description:
+In this coding challenge, you'll be crafting a Python function that handles the conversion of time from the 12-hour format to the 24-hour format. Given an input time consisting of an hour, a minute, and a period (either "am" or "pm"), your task is to develop a function that seamlessly transforms this input into a four-digit string representation in the 24-hour format.
+
+Functionality:
+
+def convert_to_24_hour(hour: int, minute: int, period: str) -> str:
     """
     Converts a 12-hour time to 24-hour time.
 
@@ -17,11 +19,16 @@ In this challenge, you're tasked with creating a Python function that handles th
     Returns:
         str: The time in 24-hour format as a four-digit string.
     """
-# python-code-challenge2
-Description
-This challenge revolves around creating a Python function that assesses whether exactly two out of three given integers are positive. You're required to check the positivity of each integer and determine if the count of positive integers is exactly equal to two.
+    # Your implementation here
+    # Convert hour to 24-hour format considering the period
+    # Format the time as a four-digit string (HHMM)
+    # Return the formatted time
+Challenge 2: Exactly Two Positive Integers
 
-# functionality
+Description:
+This challenge revolves around crafting a Python function that evaluates whether exactly two out of three given integers are positive. Your objective is to inspect each integer and ascertain if the count of positive integers among the three is precisely two.
+
+Functionality:
 def exactly_two_positive(a: int, b: int, c: int) -> bool:
     """
     Checks if exactly two out of three integers are positive.
@@ -34,11 +41,16 @@ def exactly_two_positive(a: int, b: int, c: int) -> bool:
     Returns:
         bool: True if exactly two integers are positive, False otherwise.
     """
-# python-code-challenge3
-This challenge involves crafting a Python function that computes the highest value of consonant substrings within a given lowercase string. You'll be working with a defined mapping of consonant characters to their corresponding values, and your function should find the highest cumulative value of any substring formed only by consonant characters.
- 
- # functionality
- def highest_consonant_value(s: str) -> int:
+    # Your implementation here
+    # Count the number of positive integers among a, b, and c
+    # Return True if the count is exactly 2, otherwise False
+Challenge 3: Highest Value of Consonant Substrings
+
+Description:
+This intriguing challenge demands the creation of a Python function that calculates the highest value of substrings formed exclusively from consonant characters within a given lowercase string. To achieve this, you'll be provided with a predefined mapping of consonant characters to their corresponding values.
+
+Functionality:
+def highest_consonant_value(s: str) -> int:
     """
     Calculates the highest value of consonant substrings.
 
@@ -48,3 +60,9 @@ This challenge involves crafting a Python function that computes the highest val
     Returns:
         int: The highest value of consonant substrings.
     """
+    # Your implementation here
+    # Define a mapping of consonant characters to their values
+    # Iterate through the string and identify consonant substrings
+    # Calculate the value of each consonant substring and track the highest value
+    # Return the highest cumulative value among the identified substrings
+
